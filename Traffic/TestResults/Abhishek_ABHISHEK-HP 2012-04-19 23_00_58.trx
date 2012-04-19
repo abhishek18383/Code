@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e875125a-6d4a-488c-a8a5-e7b8cb6f50a1" name="Abhishek@ABHISHEK-HP 2012-04-19 23:00:58" runUser="Abhishek-HP\Abhishek" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="4d41ba16-c3de-44f0-90b5-6b551bf82565">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Abhishek_ABHISHEK-HP 2012-04-19 23_00_58">
+      <DeploymentItem filename="D:\Traffic\Traffic\Traffic\bin\Release\Traffic.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-19T23:00:58.8921047+05:30" queuing="2012-04-19T23:00:59.9431648+05:30" start="2012-04-19T23:01:00.0601715+05:30" finish="2012-04-19T23:01:28.0197707+05:30" />
+  <ResultSummary outcome="Error">
+    <Counters total="7" executed="6" passed="5" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="1" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="ABHISHEK-HP" outcome="Error" timestamp="2012-04-19T23:01:28.0177706+05:30">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="IsStarted" storage="d:\traffic\traffic\traffictestproject\bin\release\traffictestproject.dll" id="a0990e18-256c-4fbf-394d-8e66eee3a884">
+      <Execution id="e557dbca-1ee6-45d3-bd20-b279db6c09cd" />
+      <TestMethod codeBase="D:/Traffic/Traffic/TrafficTestProject/bin/Release/TrafficTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TrafficTestProject.CarTest, TrafficTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsStarted" />
+    </UnitTest>
+    <UnitTest name="GetMeterReading" storage="d:\traffic\traffic\traffictestproject\bin\release\traffictestproject.dll" id="486fb4ca-8d69-3c32-aafe-e9c6faa00449">
+      <Execution id="6ea46bff-598d-4a01-9ccb-b4f99faad267" />
+      <TestMethod codeBase="D:/Traffic/Traffic/TrafficTestProject/bin/Release/TrafficTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TrafficTestProject.CarTest, TrafficTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetMeterReading" />
+    </UnitTest>
+    <UnitTest name="Start" storage="d:\traffic\traffic\traffictestproject\bin\release\traffictestproject.dll" id="da1da9b8-5db8-311a-ff8a-f2a0995aadb0">
+      <Execution id="3cb0d87d-96e7-4b12-845b-1035a42bc2a2" />
+      <TestMethod codeBase="D:/Traffic/Traffic/TrafficTestProject/bin/Release/TrafficTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TrafficTestProject.CarTest, TrafficTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Start" />
+    </UnitTest>
+    <UnitTest name="Drive" storage="d:\traffic\traffic\traffictestproject\bin\release\traffictestproject.dll" id="a6a18801-3e3a-6903-2d98-c513d402ee52">
+      <Execution id="72d44a3d-a91d-4421-9fbf-6330549dc31d" />
+      <TestMethod codeBase="D:/Traffic/Traffic/TrafficTestProject/bin/Release/TrafficTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TrafficTestProject.DriverTest, TrafficTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Drive" />
+    </UnitTest>
+    <UnitTest name="Stop" storage="d:\traffic\traffic\traffictestproject\bin\release\traffictestproject.dll" id="83b53d92-1a6b-cacd-28a0-e4cfa17dc956">
+      <Execution id="99469b38-5a9e-45f7-87f8-d92a31a6f7e9" />
+      <TestMethod codeBase="D:/Traffic/Traffic/TrafficTestProject/bin/Release/TrafficTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TrafficTestProject.CarTest, TrafficTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Stop" />
+    </UnitTest>
+    <UnitTest name="GetWaitingTime" storage="d:\traffic\traffic\traffictestproject\bin\release\traffictestproject.dll" id="85e00a19-b26d-f184-fcc6-c5cd3e3c847a">
+      <Execution id="177f77ed-4c5f-48c9-a9bc-1219fb21a126" />
+      <TestMethod codeBase="D:/Traffic/Traffic/TrafficTestProject/bin/Release/TrafficTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TrafficTestProject.TrafficLightTest, TrafficTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetWaitingTime" />
+    </UnitTest>
+    <UnitTest name="Run" storage="d:\traffic\traffic\traffictestproject\bin\release\traffictestproject.dll" id="eb22f7f9-ec97-21e4-f2c0-f826c0017a54">
+      <Execution id="967b087b-2f68-474d-bc04-6a7962871ba8" />
+      <TestMethod codeBase="D:/Traffic/Traffic/TrafficTestProject/bin/Release/TrafficTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TrafficTestProject.CarTest, TrafficTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Run" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="85e00a19-b26d-f184-fcc6-c5cd3e3c847a" executionId="177f77ed-4c5f-48c9-a9bc-1219fb21a126" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eb22f7f9-ec97-21e4-f2c0-f826c0017a54" executionId="967b087b-2f68-474d-bc04-6a7962871ba8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="da1da9b8-5db8-311a-ff8a-f2a0995aadb0" executionId="3cb0d87d-96e7-4b12-845b-1035a42bc2a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="83b53d92-1a6b-cacd-28a0-e4cfa17dc956" executionId="99469b38-5a9e-45f7-87f8-d92a31a6f7e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="486fb4ca-8d69-3c32-aafe-e9c6faa00449" executionId="6ea46bff-598d-4a01-9ccb-b4f99faad267" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a6a18801-3e3a-6903-2d98-c513d402ee52" executionId="72d44a3d-a91d-4421-9fbf-6330549dc31d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a0990e18-256c-4fbf-394d-8e66eee3a884" executionId="e557dbca-1ee6-45d3-bd20-b279db6c09cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="177f77ed-4c5f-48c9-a9bc-1219fb21a126" testId="85e00a19-b26d-f184-fcc6-c5cd3e3c847a" testName="GetWaitingTime" computerName="ABHISHEK-HP" duration="00:00:00.0266465" startTime="2012-04-19T23:01:00.1611773+05:30" endTime="2012-04-19T23:01:01.8292727+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="177f77ed-4c5f-48c9-a9bc-1219fb21a126">
+    </UnitTestResult>
+    <UnitTestResult executionId="967b087b-2f68-474d-bc04-6a7962871ba8" testId="eb22f7f9-ec97-21e4-f2c0-f826c0017a54" testName="Run" computerName="ABHISHEK-HP" duration="00:00:00.0009451" startTime="2012-04-19T23:01:01.8442735+05:30" endTime="2012-04-19T23:01:01.8572743+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="967b087b-2f68-474d-bc04-6a7962871ba8">
+    </UnitTestResult>
+    <UnitTestResult executionId="3cb0d87d-96e7-4b12-845b-1035a42bc2a2" testId="da1da9b8-5db8-311a-ff8a-f2a0995aadb0" testName="Start" computerName="ABHISHEK-HP" duration="00:00:00.0003499" startTime="2012-04-19T23:01:01.8692750+05:30" endTime="2012-04-19T23:01:01.8752753+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3cb0d87d-96e7-4b12-845b-1035a42bc2a2">
+    </UnitTestResult>
+    <UnitTestResult executionId="99469b38-5a9e-45f7-87f8-d92a31a6f7e9" testId="83b53d92-1a6b-cacd-28a0-e4cfa17dc956" testName="Stop" computerName="ABHISHEK-HP" duration="00:00:00.0004618" startTime="2012-04-19T23:01:01.8862760+05:30" endTime="2012-04-19T23:01:01.8942764+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="99469b38-5a9e-45f7-87f8-d92a31a6f7e9">
+    </UnitTestResult>
+    <UnitTestResult executionId="6ea46bff-598d-4a01-9ccb-b4f99faad267" testId="486fb4ca-8d69-3c32-aafe-e9c6faa00449" testName="GetMeterReading" computerName="ABHISHEK-HP" duration="00:00:00.0003572" startTime="2012-04-19T23:01:01.9012768+05:30" endTime="2012-04-19T23:01:01.9072772+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6ea46bff-598d-4a01-9ccb-b4f99faad267">
+    </UnitTestResult>
+    <UnitTestResult executionId="72d44a3d-a91d-4421-9fbf-6330549dc31d" testId="a6a18801-3e3a-6903-2d98-c513d402ee52" testName="Drive" computerName="ABHISHEK-HP" duration="00:00:26.1004928" startTime="2012-04-19T23:01:01.9182778+05:30" endTime="2012-04-19T23:01:28.0187706+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="72d44a3d-a91d-4421-9fbf-6330549dc31d">
+    </UnitTestResult>
+    <UnitTestResult executionId="e557dbca-1ee6-45d3-bd20-b279db6c09cd" testId="a0990e18-256c-4fbf-394d-8e66eee3a884" testName="IsStarted" computerName="ABHISHEK-HP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e557dbca-1ee6-45d3-bd20-b279db6c09cd">
+    </UnitTestResult>
+  </Results>
+</TestRun>
