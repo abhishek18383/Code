@@ -13,17 +13,19 @@ namespace Traffic
             /*******************************************************************************************
              * There could have been several approaches to this problem
              * 1)Taking this as directed graph.
+             * 
              * 2)Making a global time controller which could raise ticks and synchronise all objects
              *  like traffic lights, driver's action based on every tick.But this approach is more suitable 
              *  in case of simulations when there are several objecs etc.
              *  
              * 
-             * 3)So I have taken the third approach as per problem scope and maintain simplicity.
+             * 3)So, I have taken the third approach as per problem scope and to maintain simplicity.
              * 
              * The following assumptions have been made :
              * All units are same..like time in minutes, secs or hrs
              * Traffic light will assume the next light if the previous light duration is just over.
-             * i.e during the transition of lights old to new ...new light will be assumed to operate
+             * i.e during the transition of lights old to new ...new light will be assumed to operate.
+             *
              * Car is in  "Start" state and at the start of journey and lights are green
              * 
              * Basic design is :
@@ -34,9 +36,9 @@ namespace Traffic
              * 
              * 
              * 
-             * Test cases have assumes same time unit..for all entities
+             * Test cases have assumed same time unit..for all entities
              * * *******************************************************************************************/
-            //Please take all values in same unit prefebly minute
+            //Please take all values in same unit preferably minute
             //sample input
             ICar car = new Car(10/60.0);//10 secs
             car.Start();
